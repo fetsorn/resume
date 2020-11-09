@@ -1,0 +1,620 @@
+#+TITLE: Fetsorn
+
+* content
+ - reading list in 2017
+ - build anylogic for guix
+ - started as data annotator, continued as manager for both data collection and data annotation teams
+ - wrote a set of bash scripts for data annotation
+ - extended functionality of the django/React app
+ - fully responsible for company static websites using ... along with all graphics, icons, videos, hosting
+ - maintained corporate digital assets - created logos, presentations, reports, instructions, paperflow, LaTeX, video
+ - maintained cloud storage for the corporation, backups
+ - proposed to extend company product to iOS platform, developed a native iOS computer vision app with SwiftUI, OpenCV, Tensorflow and CoreData
+ - co-author with the CEO of the "restaurant business" simulator in Anylogic, Java
+ - translated copyright agreement in summer 2019?
+ - transcribed content
+ - edited The Wall journal
+ - advocate assistant
+ - work as buddy for okt
+ - assembler
+ - elm system dynamics model game training economics
+ - bladder personal information interface
+ - reword
+ - TOEFL
+ - drawing vektor graphics logo
+ - publish on soccer law
+ - translate from latin law of legal entities
+ - made powerpoint presentations maintained brand presence authored reports and memos
+ - real estate memos legal firm
+ - publish on etymology linguistics
+ - publish on origins legal entities
+ - publish on copyright law basics
+ - publish on internet providers
+ - publish on saleilles origins civil law
+ - publish on orphan works
+ - publish on competences
+ - django react app computer vision expanded functionality
+ - hugo forestry fomantic static site cms personal publishing email to sheets
+ - hugo webflow transcoded video email to sheets
+ - tilda cows ai
+ - helped design a tabletop game fishbanks
+ - helped design a tabletop game dragons
+ - java anylogic system dynamics model game training economics
+ - translate and maintain website cms law firm
+ - made a custom smart watch face for hours of life time tracking
+ - russian law igpr essay
+ - made a go template utility for timelines
+ - used postgres timelines for evidence based family historiography and personal data management
+ - digital schedule and diary for school
+ - vk group with interactive menu for school
+ - maintained a cloud of student literature of n gb used by n students
+ - subset of org-mode markup for nested front matter
+ - computer vision ios app swiftui
+ - gathered thousands comparative law
+ - wrote down org-mode manual
+ - questions svg from wildgrin org-roam
+ - get example from Sveta's video
+ - the sims bladder project of 2018
+ - add higher education
+ - add iOS
+ - trained best datasets, number of frames, hours of video
+ - worked n times faster than an untrained annotator
+ - scraped web for parts
+ - managed data providers
+ - top of my school class in informatics
+ - first app with Embarcadero Delphi Pascal, a database frontend for a linguistic research
+ - some broad term for a person that deals in startup look and interface - presentations, websites, apps, publications, instructions, like the system analyst is for gritty coders
+ - anylogic models
+ - cows.ai
+ - cows lk react
+ - scripts for image segmentation
+ - database frontend in Pascal with Embarcardero Delphi won some competition in moscow
+ - that biology research on biosphere or whatever the fuck
+ - academic articles on linguistics, law of internet tech and copyright
+ - 2012-10-08 interactive schedule and homework database
+
+* elements
+** head
+#+NAME: head
+#+BEGIN_SRC latex
+% Intended LaTeX compiler: xelatex
+\documentclass[12pt,a4paper]{awesome-cv}
+
+\usepackage[defernumbers=true,style=numeric,sorting=ydnt]{biblatex}
+\addbibresource{fetsorn.bib}
+\defbibheading{cvbibsection}[\bibname]{\cvsubsection{#1}}
+\renewcommand{\acvHeaderSocialSep}{\enskip\cdotp\enskip}
+\renewcommand{\acvHeaderIconSep}{~}
+\renewcommand*{\bodyfontlight}{\sourcesanspro}
+\renewcommand*{\bibfont}{\paragraphstyle}
+\renewcommand*{\entrylocationstyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
+\renewcommand*{\subsectionstyle}{\entrytitlestyle}
+\renewcommand*{\headerquotestyle}[1]{{\fontsize{8pt}{1em}\bodyfont #1}}
+\colorlet{awesome}{awesome-concrete}
+\setbool{acvSectionColorHighlight}{false}
+\colorizelinks[awesome-skyblue]
+#+END_SRC
+
+#+NAME: info-ru
+#+BEGIN_SRC latex
+\name{Антон}{Давыдов}
+\position{Software Developer}
+\photo[right,noedge]{../raw/avatar/IMG_20200916_152720-sky.jpg}
+\email{fetsorn@gmail.com}
+\github{fetsorn}
+\gitlab{fetsorn}
+\linkedin{fetsorn}
+\hypersetup{
+ pdfauthor={Антон Давыдов},
+ pdftitle={Software Developer · Data Scientist · Web Developer},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.4)},
+ pdflang={Russian}}
+#+END_SRC
+
+#+NAME: info-en
+#+BEGIN_SRC latex
+\name{Anton}{Davydov}
+\position{Software Developer}
+\photo[right,noedge]{../raw/avatar/IMG_20200916_152720-sky.jpg}
+\email{fetsorn@gmail.com}
+\github{fetsorn}
+\gitlab{fetsorn}
+\linkedin{fetsorn}
+\hypersetup{
+ pdfauthor={Anton Davydov},
+ pdftitle={Software Developer · Data Scientist · Web Developer},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.4)},
+ pdflang={English}}
+
+#+END_SRC
+
+#+NAME: header
+#+BEGIN_SRC latex
+\begin{document}
+
+\makecvheader
+\makecvfooter{\today\\~}{}{\thepage\\~}
+#+END_SRC
+** key skills
+#+NAME: key-skills-ru
+#+BEGIN_SRC latex
+\cvsection{Ключевые навыки}
+\label{sec:org6256247}
+\begin{cvskills}
+\cvskill{Лидерство}{1 год опыт руководства аутсорсинговой командой.}
+\cvskill{Коммуникация}{Отличные навыки письменной и устной речи, опыт преподавания.}
+\cvskill{Обработка данных}{2 года опыт работы на всех этапах обработки данных для машинного обучения.}
+\cvskill{Трудовая этика}{Готов вложить большие усилия в изучение инструментов которые обеспечивают высокую продуктивность в дальнейшем. Быстро осваиваю навыки, необходимые для решения прикладных задач.}
+\cvskill{Мотивация}{Увлечен наукой, технологией и образованием в области информационных технологий.}
+\end{cvskills}
+#+END_SRC
+
+#+NAME: key-skills-en
+#+BEGIN_SRC latex
+\cvsection{Key Skills}
+\label{sec:org7f756c4}
+\begin{cvskills}
+\cvskill{Leadership}{1 year of freelance team leadership experience.}
+\cvskill{Communications}{Good written and spoken communication skills.}
+\cvskill{Data Processing}{2 years of data processing experience on all stages of machine learning.}
+\cvskill{Work Ethics}{Willing to invest great effort into tools that provide high productivity in the long term. Fast-learner when it comes to solving tasks at hand.}
+\cvskill{Motivation}{I am passionate about and always willing to support science, technology and education.}
+\end{cvskills}
+#+END_SRC
+** experience
+
+#+NAME: experience-header-ru
+#+BEGIN_SRC latex
+\cvsection{Опыт работы}
+\label{sec:orgd03a808}
+
+\begin{cventries}
+#+END_SRC
+
+#+NAME: dvs-header-ru
+#+BEGIN_SRC latex
+\cventry{Digital Vision Solutions/Радар}{2018 -- 2020\hfill Москва, Сколково}{}{}{}
+
+\cvsubentry
+{Data scientist/Software developer}
+{дек 2018 -- окт 2020}
+{\begin{cvitems}
+#+END_SRC
+
+#+NAME: dvs-data-ru
+#+BEGIN_SRC latex
+\item Обеспечил высокое качество и эффективность обработки данных
+\begin{itemize}
+\item Подготовил датасеты для обучения нейросетей по распознаванию крупного рогатого скота (21,000 кадров), циферблатов (1200 кадров) и пищевой продукции (1000 кадров).
+\item Сократил расходы на аутсорсинг заключив договоры с фрилансерами на более выгодных для компании условиях.
+\item Обучил персонал эффективным методам обработки данных.
+\item Упростил процесс разметки изображений путем автоматизации Bash.
+\item Увеличил скорость аннотации видео-данных (с 2 до 10 событий в минуту) и сегментации изображений (с 1 до 5 кадров в минуту).
+\item Автоматизировал первичный сбор данных путем скрейпинга крупных поисковых систем (Python/WebDriver).
+\end{itemize}
+#+END_SRC
+
+#+NAME: dvs-software-ru
+#+BEGIN_SRC latex
+\item Проявил инициативу в области разработки программного обеспечения
+\begin{itemize}
+\item Активно участвовал в развертывании облачного сервиса (CUDA, нагрузка 5 кадров/сек). Разработал схему докеризации. Запустил сервис в кластере EC2.
+\item Инициировал и осуществил запуск мобильного приложения iOS. Использовал оригинальный метод запуска кастомных нейросетей при помощи OpenCV Swift в тех случаях, когда ТensorFlow Lite не соответствовал требованиям точности.
+\item Расширил функционал веб-приложения компании (React/Django) добавив доступ к новым функциям облачного сервиса.
+\end{itemize}
+#+END_SRC
+
+#+NAME: dvs-brand-ru
+#+BEGIN_SRC latex
+\item Способствовал развитию бренда компании
+\begin{itemize}
+\item Разработал и поддерживал лендинговые сайты: \href{https://cows.ai}{cows.ai}, \href{https://digitalvisionsolution.com}{digitalvisionsolution.com}.
+\item Подготовил 7 презентаций, 4 аналитических материала, 6 видео-роликов и 2 логотипа.
+\item Принимал активное участие в ведении отчетности, оформлении заявок на гранты и акселераторы. Предоставлял переводческие услуги.
+\end{itemize}
+#+END_SRC
+
+#+NAME: experience-header-en
+#+BEGIN_SRC latex
+\cvsection{Experience}
+\label{sec:org8081509}
+
+\begin{cventries}
+#+END_SRC
+
+#+NAME: dvs-header-en
+#+BEGIN_SRC latex
+\cventry{Digital Vision Solutions/Radar}{2018 -- 2020\hfill Moscow, Skolkovo (remote)}{}{}{}
+
+\cvsubentry
+{Data scientist/Software developer}
+{Dec 2018 -- Oct 2020}
+{\begin{cvitems}
+#+END_SRC
+
+#+NAME: dvs-data-en
+#+BEGIN_SRC latex
+\item Performed high-quality cost-effective data processing
+\begin{itemize}
+\item Produced datasets for training neural networks to recognize cattle (21,000 frames), dials (1200 frames) and food products (1000 frames).
+\item Reduced outsourcing costs by negotiating more favorable terms with the freelancers.
+\item Trained staff in effective data processing techniques.
+\item Simplified image annotation by automating Bash.
+\item Increased the speed of video annotation (from 2 to 10 events per minute) and image segmentation (from 1 to 5 frames per minute).
+\item Automated primary data collection by scraping large search engines (Python / WebDriver).
+\end{itemize}
+#+END_SRC
+
+#+NAME: dvs-software-en
+#+BEGIN_SRC latex
+\item Took initiative in software development
+\begin{itemize}
+\item Actively participated in the deployment of the cloud service (CUDA, load 5 frames / sec). Developed a dockerization scheme. Launched a service on an EC2 cluster.
+\item Initiated and launched the iOS mobile application. I used the original method of launching custom neural networks using OpenCV Swift in cases where TensorFlow Lite did not meet the accuracy requirements.
+\item Expanded the functionality of the company's web application (React / Django) by adding access to new functions of the cloud service.
+\end{itemize}
+#+END_SRC
+
+#+NAME: dvs-brand-en
+#+BEGIN_SRC latex
+\item Contributed to the development of the company's brand
+\begin{itemize}
+\item Developed and maintained landing sites: \href{https://cows.ai}{cows.ai}, \href{https://digitalvisionsolution.com}{digitalvisionsolution.com}.
+\item Produced 7 presentations, 4 analytical reports, 6 videos and 2 logos.
+\item Took an active part in data reporting, filing applications for grants and accelerators. Provided translation services.
+\end{itemize}
+#+END_SRC
+
+#+NAME: experience-footer
+#+BEGIN_SRC latex
+\end{cvitems}
+}
+\end{cventries}
+#+END_SRC
+
+** education
+#+NAME: education-ru
+#+BEGIN_SRC latex
+\cvsection{Образование}
+\label{sec:orgb2f70b8}
+
+\begin{cventries}
+
+\cventry
+{Юрист, бакалавр}
+{Москва}
+{МГЭУ}
+{2017 -- 2020}
+{\begin{cvitems}
+\item Выпускная работа: ``Права авторов и их гражданско-правовая защита''
+\end{cvitems}
+}
+
+\cventry
+{Юрист, бакалавр}
+{Москва}
+{Высшая школа экономики}
+{2014 -- 2017}
+{\begin{cvitems}
+\item Автор 15 публикаций, в том числе по праву информационных технологий и интеллектуальной собственности.
+\item Выполнил 2 проекта по переводу академической литературы с английского и французского языков.
+\end{cvitems}
+}
+\end{cventries}
+#+END_SRC
+
+#+NAME: education-en
+#+BEGIN_SRC latex
+\cvsection{Education}
+\label{sec:org0d83eff}
+
+\begin{cventries}
+
+\cventry
+{Bachelor of Arts in Law}
+{Moscow}
+{MHEU}
+{Aug 2017 -- Aug 2020}
+{\begin{cvitems}
+\item Thesis: ``Civil copyright protection''
+\end{cvitems}
+}
+
+\cventry
+{Bachelor of Arts in Law}
+{Moscow}
+{Higher School of Economics}
+{Aug 2014 -- Aug 2017}
+{\begin{cvitems}
+\item Published 15 academic articles, including topics of copyright and IT law.
+\item Translated 2 academic works from English and French.
+\end{cvitems}
+}
+\end{cventries}
+#+END_SRC
+** languages
+#+NAME: languages-ru
+#+BEGIN_SRC latex
+\cvsection{Языки}
+\label{sec:org906a9e2}
+\begin{cvskills}
+\cvskill{Русский}{Родной}
+\cvskill{Английский}{Полный профессиональный (C1, 2014: TOEFL 112)}
+\end{cvskills}
+#+END_SRC
+
+#+NAME: languages-en
+#+BEGIN_SRC latex
+\cvsection{Languages}
+\label{sec:orgd37a95e}
+\begin{cvskills}
+\cvskill{Russian}{Native}
+\cvskill{English}{Full professional proficiency (C1, 2014: TOEFL 112)}
+\end{cvskills}
+#+END_SRC
+** skills
+#+NAME: skills-ru
+#+BEGIN_SRC latex
+\cvsection{Навыки}
+\label{sec:org7e6a7fa}
+\begin{cvskills}
+\cvskill{Языки программирования}{Python, Go, Swift, C++, Elm, JavaScript, Unix shells, EmacsLisp.}
+\cvskill{Среды разработки}{MacOS, Unix/Linux, Windows, Emacs, Vim, Jupyter, Git, Magit, Nix.}
+\cvskill{Машинное обучение}{TensorFlow Object Detection API, OpenCV, Pandas.}
+\cvskill{iOS-разработка}{SwiftUI, CoreData, UIKit, OpenCV Swift, TensorFlow Lite.}
+\cvskill{Виртуализация, контейнеры, облако}{Amazon EC2, Docker.}
+\cvskill{Другие технологии}{SQL(MySQL), \LaTeX{}, WebDriver}
+\end{cvskills}
+#+END_SRC
+
+#+NAME: skills-en
+#+BEGIN_SRC latex
+\cvsection{Software Developement and Data Science}
+\label{sec:org59fab76}
+\begin{cvskills}
+\cvskill{Programming languages}{Python, Go, Swift, C++, Elm, JavaScript, Unix shells, EmacsLisp.}
+\cvskill{Development environments}{MacOS, Unix/Linux, Windows, Emacs, Vim, Jupyter, Git, Magit, Nix.}
+\cvskill{Machine learning}{TensorFlow Object Detection API, OpenCV, Pandas.}
+\cvskill{iOS-development}{SwiftUI, CoreData, UIKit, OpenCV Swift, TensorFlow Lite.}
+\cvskill{Virtualization, containers and cloud}{Amazon EC2, Docker.}
+\cvskill{Other technologies}{SQL(MySQL), \LaTeX{}, WebDriver.}
+\end{cvskills}
+#+END_SRC
+** projects
+#+NAME: projects-ru
+#+BEGIN_SRC latex
+\cvsection{Проекты}
+\label{sec:org3b6152f}
+\cvsubsection{В публичном доступе}
+\label{sec:orgdd7c5f2}
+
+\cvsubentry
+{Ресторанный бизнес}
+{2019 -- 2020}
+{Имитационный \href{https://katalevsky.ru/restaurants/}{бизнес-тренажер} для преподавания эвристик ведения бизнеса и системной динамики. Anylogic, Java. Со-автор с Дмитрием Каталевским, Сколково.
+}
+
+\cvsubentry
+{katalevsky.ru}
+{2019}
+{Личный \href{https://katalevsky.ru}{сайт} для партнера. Hugo, Forestry.io, Netlify, Gitlab.
+}
+\cvsubsection{Вне публичного доступа}
+\label{sec:org551b057}
+
+\cvsubentry
+{sanwei}
+{2020}
+{Утилита командной строки для генерации трехмерных изображений китайского письма. Blender Python API.
+}
+
+\cvsubentry
+{timeline}
+{2019 -- 2020}
+{Утилита командной строки - фильтр для генерации векторной графики из сериализованных данных, предназначена для управления личными данными и проведения проектов по генеалогии. JSON, Org-mode, Golang.
+}
+
+\cvsubentry
+{pebble}
+{2016}
+{Оригинальный циферблат для электронных часов Pebble. Pebble C API.
+}
+
+\cvsubentry
+{gadgets}
+{2013 -- 2014}
+{Проект по визуализации данных для сопровождения независимого научного исследования по лингвистике. Embarcadero Delphi, Pascal, Firebird.
+Исследование получило приз XXI Всероссийского Конкурса им. В.И. Вернадского.
+}
+#+END_SRC
+
+#+NAME: projects-en
+#+BEGIN_SRC latex
+\cvsection{Software Development Projects}
+\label{sec:orge72dd61}
+\cvsubsection{Publicly available software projects}
+\label{sec:orgc4894ce}
+
+\cvsubentry
+{Restaurant business}
+{2019 -- 2020}
+{System dynamics \href{https://katalevsky.ru/restaurants/}{business simulator} about cognitive bias in competition. Anylogic, Java. Co-authored with Dmitry Katalevsky, Skolkovo.
+}
+
+\cvsubentry
+{katalevsky.ru}
+{2019}
+{Personal \href{https://katalevsky.ru}{website} for a partner. Hugo, Forestry.io, Netlify, Gitlab.
+}
+\cvsubsection{Other software projects (not publicly available)}
+\label{sec:org235f34b}
+
+\cvsubentry
+{sanwei}
+{2020}
+{Command line utility for generation of 3d graphics of writing in Chinese. Blender Python API.
+}
+
+\cvsubentry
+{timeline}
+{2019 -- 2020}
+{Command line filter utility for generation of vector graphics representation of serialized data, used for personal information management and genealogy projects. JSON, Org-mode, Golang.
+}
+
+\cvsubentry
+{pebble}
+{2016}
+{Custom dial for the Pebbles smart watch. Pebble C API.
+}
+
+\cvsubentry
+{gadgets}
+{2013 -- 2014}
+{Data visualization project for an independent research project in linguistics. Embarcadero Delphi, Pascal, Firebird.
+Received awards from the XXI Vernadsky Research Competition.
+}
+#+END_SRC
+** teaching
+#+NAME: teaching-ru
+#+BEGIN_SRC latex
+\cvsection{Преподавание}
+\label{sec:orgcff58fe}
+
+\cvsubsection{Частные курсы}
+\label{sec:org732fcff}
+
+\cvsubentry
+{Начала веб-разработки}
+{Москва\hfill{}2020}
+{}
+
+\cvsubentry
+{Основы Linux/Emacs}
+{Москва\hfill{}2020}
+{}
+#+END_SRC
+
+#+NAME: teaching-en
+#+BEGIN_SRC latex
+\cvsection{Teaching and Advising}
+\label{sec:org5bf6234}
+
+\cvsubsection{Tutoring}
+\label{sec:org31b90ff}
+
+\cvsubentry
+{Web development 101}
+{Moscow\hfill{}2020}
+{}
+
+\cvsubentry
+{Linux/Emacs 101}
+{Moscow\hfill{}2020}
+{}
+#+END_SRC
+
+#+NAME: footer
+#+BEGIN_SRC latex
+\end{document}
+#+END_SRC
+
+* latexmk
+
+#+NAME: .latexmk
+#+BEGIN_SRC conf :tangle ../ops/.latexmkrc
+# Remove xdv files as well when cleaning
+$clean_ext = "xdv run.xml";
+# Default directory for TeX libraries
+$ENV{'TEXINPUTS'}=":../dev/awesome";
+# Use xelatex by default - these parameters are the same as passing -xelatex to latexmk
+$pdf_mode = 5; # xelatex
+$dvi_mode = $postscript_mode = 0;
+#+END_SRC
+
+#+NAME: Makefile
+#+BEGIN_SRC makefile :tangle ../ops/Makefile
+.PHONY: all clean publish
+
+all:
+	latexmk
+view:
+	latexmk -pvc vita
+clean:
+	latexmk -C -bibtex
+
+#+END_SRC
+* tex
+#+NAME: cv-ru
+#+BEGIN_SRC latex :tangle ../ops/fetsorn-cv-ru.tex :noweb tangle
+<<head>>
+<<info-ru>>
+<<header>>
+<<key-skills-ru>>
+<<experience-header-ru>>
+<<dvs-header-ru>>
+<<dvs-data-ru>>
+<<dvs-software-ru>>
+<<dvs-brand-ru>>
+<<experience-footer>>
+<<education-ru>>
+<<languages-ru>>
+<<skills-ru>>
+<<projects-ru>>
+<<teaching-ru>>
+<<footer>>
+#+END_SRC
+
+#+NAME: cv-en
+#+BEGIN_SRC latex :tangle ../ops/fetsorn-cv-en.tex :noweb tangle
+<<head>>
+<<info-en>>
+<<header>>
+<<key-skills-en>>
+<<experience-header-en>>
+<<dvs-header-en>>
+<<dvs-data-en>>
+<<dvs-software-en>>
+<<dvs-brand-en>>
+<<experience-footer>>
+<<education-en>>
+<<languages-en>>
+<<skills-en>>
+<<projects-en>>
+<<teaching-en>>
+<<footer>>
+#+END_SRC
+
+#+NAME: resume-ru
+#+BEGIN_SRC latex :tangle ../ops/fetsorn-resume-ru.tex :noweb tangle
+<<head>>
+<<info-ru>>
+<<header>>
+<<experience-header-ru>>
+<<dvs-header-ru>>
+<<dvs-data-ru>>
+<<dvs-software-ru>>
+<<experience-footer>>
+<<education-ru>>
+<<languages-ru>>
+<<footer>>
+#+END_SRC
+
+#+NAME: resume-en
+#+BEGIN_SRC latex :tangle ../ops/fetsorn-resume-en.tex :noweb tangle
+<<head>>
+<<info-en>>
+<<header>>
+<<experience-header-en>>
+<<dvs-header-en>>
+<<dvs-data-en>>
+<<dvs-software-en>>
+<<experience-footer>>
+<<education-en>>
+<<languages-en>>
+<<footer>>
+#+END_SRC
+

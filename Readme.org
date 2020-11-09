@@ -1,0 +1,3 @@
+#+TITLE: Resume
+
+Resume in [[172.105.56.168/fetsorn-cv-ru.pdf][Russian]] and [[172.105.56.168/fetsorn-cv-en.pdf][English]].
